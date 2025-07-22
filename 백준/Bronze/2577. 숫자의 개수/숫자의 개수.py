@@ -1,0 +1,16 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
+mul_string = str(a*b*c)
+
+print(mul_string.count('0'))
+print(mul_string.count('1'))
+print(mul_string.count('2'))
+print(mul_string.count('3'))
+print(mul_string.count('4'))
+print(mul_string.count('5'))
+print(mul_string.count('6'))
+print(mul_string.count('7'))
+print(mul_string.count('8'))
+print(mul_string.count('9'))
