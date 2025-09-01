@@ -1,0 +1,5 @@
+a, b = map(int, input().split())
+arr_a = list(map(int, input().split()))
+arr_b = list(map(int, input().split()))
+
+print(*sorted(arr_a+arr_b))
